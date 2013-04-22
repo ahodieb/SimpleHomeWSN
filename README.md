@@ -1,11 +1,17 @@
 SimpleHomeWSN
 =============
 
-A simple home wireless sensor network sensing the room temperature and if the room light is on or not.
+A simple home wireless sensor network sensing the room temperature and if the room light is on or not, and uploading this live data to an online feed so it can be used to monitor the house remotly even from mobile phones.
 
-#Sensor Node
+This project is presented for the Wireless Sensor Networks course in AAST.
 
-##The sensore node is equiped with:
+Its goal is to show an example of simple implementations of WSN using Arduino, Xbee and Online Data feeds.
+
+
+Sensor Node
+===========
+
+##The sensor node is equiped with:
 * An LDR to sense the presence of light.
 * A Dallas 18b20 digital temperature sensore.
 * Xbee S2 Transmitter.
@@ -13,7 +19,11 @@ A simple home wireless sensor network sensing the room temperature and if the ro
 * Arduino Uno Board.
 
 ##External libraries used :
-* One Wire Library : http://www.pjrc.com/teensy/td_libs_OneWire.html
-* Arduino Tempreataure Control Library : https://github.com/milesburton/Arduino-Temperature-Control-Library
-Used for reading the temperature from the sensor.
+* [One Wire Library][1] 
+* [Arduino Tempreataure Control Library][2] 
+* Both used for reading the temperature from the sensor.
+* I bundeld the external libraries in this repo in case the external libraries have any future changes that might affect this application.
 
+
+  [1]: http://www.pjrc.com/teensy/td_libs_OneWire.html
+  [2]: https://github.com/milesburton/Arduino-Temperature-Control-Library
