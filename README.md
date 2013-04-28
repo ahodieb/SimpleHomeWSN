@@ -7,6 +7,12 @@ This project is presented for the Wireless Sensor Networks course in AAST.
 
 Its goal is to show an example of simple implementations of WSN using Arduino, Xbee and Online Data feeds.
 
+#Work in progress:
+* Updating the base-station node to recive the temperature.
+* update the sensing frequency in the sensor nodes.
+* explore the collision behaviour of multiple nodes.
+* create a fault tolerent way to send data without collision.
+
 
 Sensor Node
 ===========
