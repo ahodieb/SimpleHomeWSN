@@ -40,6 +40,7 @@ A python script reads the frames sent from the sensor nodes and uploads them to 
 
 * [pySerial][5] to read serial data from the Xbee.
 * [Xively-python][6] to upload the data to Xively online cloud.
+* [Xively-RasberyPi][8] The code of uploading to Xively is a modified version from this tutorial.
 
 
 
@@ -81,3 +82,4 @@ A python script reads the frames sent from the sensor nodes and uploads them to 
   [5]: http://pyserial.sourceforge.net/
   [6]: https://github.com/xively/xively-python
   [7]: https://xively.com/feeds/1526802309
+  [8]: https://xively.com/dev/tutorials/pi/
